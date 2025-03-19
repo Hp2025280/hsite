@@ -11,7 +11,7 @@ const montserrat = Poppins({
 
 export const metadata: Metadata = {
   title: "H Performance",
-  description: "H Performance: Soluções integradas de marketing e automação que transformam leads em clientes e processos em resultados.",
+  description: "H Performance: Soluções integradas de marketing e automação que impulsionam transformam leads em clientes e processos em resultados.",
 };
 
 export default function RootLayout({
