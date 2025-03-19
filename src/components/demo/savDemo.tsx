@@ -73,7 +73,7 @@ export default function SavDemo() {
           <div className="relative w-full overflow-hidden rounded-xl border border-neutral-800">
             <div className="relative w-full aspect-[16/9]">
               <Image
-                src="/sav2.png"
+                src="/dashboardH.png"
                 fill
                 className="object-cover object-center"
                 alt="Dashboard do Sistema de Análise de Vendas"
