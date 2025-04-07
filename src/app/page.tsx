@@ -4,7 +4,7 @@ import Image from "next/image";
 // import { SpotlightNewDemo } from "@/components/demo/spotlightDemo";
 import { WavyBackgroundDemo } from "@/components/demo/wavyBackDemo";
 import { FeaturesSectionDemo } from "@/components/demo/featuresDemo";
-// import { MarqueeDemo } from "@/components/demo/marqueeDemo";
+import { MarqueeDemo } from "@/components/demo/marqueeDemo";
 import { TestimonialsDemo } from "@/components/demo/testimonialsDemo";
 import SavDemo from "@/components/demo/savDemo";
 import Header from "@/components/demo/navbar"
