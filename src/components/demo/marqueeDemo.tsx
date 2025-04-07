@@ -2,41 +2,41 @@ import { Marquee } from "@/components/magicui/marquee";
 import Image from "next/image";
 
 const companies = [
-  {
-    id: "company1",
-    name: "Birth Hair",
-    logo: "/2.png", // Replace with actual logo paths
-  },
-  {
-    id: "company2",
-    name: "Tokyo Turism",
-    logo: "/3.png",
-  },
-  {
-    id: "company3",
-    name: "Guap",
-    logo: "/6.png",
-  },
-  {
-    id: "company4",
-    name: "BSB Solutions",
-    logo: "/7.png",
-  },
-  {
-    id: "company5",
-    name: "Hair Brasil",
-    logo: "/8.png",
-  },
-  {
-    id: "company6",
-    name: "Casaf",
-    logo: "/9.png",
-  },
-  {
-    id: "company7",
-    name: "Tokyo Drift Tour",
-    logo: "/11.png",
-  },
+//   {
+//     id: "company1",
+//     name: "Birth Hair",
+//     logo: "/2.png", // Replace with actual logo paths
+//   },
+//   {
+//     id: "company2",
+//     name: "Tokyo Turism",
+//     logo: "/3.png",
+//   },
+//   {
+//     id: "company3",
+//     name: "Guap",
+//     logo: "/6.png",
+//   },
+//   {
+//     id: "company4",
+//     name: "BSB Solutions",
+//     logo: "/7.png",
+//   },
+//   {
+//     id: "company5",
+//     name: "Hair Brasil",
+//     logo: "/8.png",
+//   },
+//   {
+//     id: "company6",
+//     name: "Casaf",
+//     logo: "/9.png",
+//   },
+//   {
+//     id: "company7",
+//     name: "Tokyo Drift Tour",
+//     logo: "/11.png",
+//   },
   {
     id: "company9",
     name: "BM Midia",
