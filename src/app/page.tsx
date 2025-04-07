@@ -47,7 +47,7 @@ export default function Home() {
       </motion.div>
 
       {/* Marquee Clients */}
-      {/* <div> <MarqueeDemo /> </div> */}
+      <div> <MarqueeDemo /> </div>
 
       {/* Features Section */}
       <section id="sections" className="mt-[300px] bg-black text-white">
