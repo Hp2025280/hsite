@@ -32,11 +32,11 @@ const companies = [
 //     name: "Casaf",
 //     logo: "/9.png",
 //   },
-//   {
-//     id: "company7",
-//     name: "Tokyo Drift Tour",
-//     logo: "/11.png",
-//   },
+  {
+    id: "company7",
+    name: "Pao Dourado",
+    logo: "/pao-dourado.png",
+  },
   {
     id: "company9",
     name: "BM Midia",
@@ -45,17 +45,17 @@ const companies = [
   {
     id: "company10",
     name: "Smart Tur",
-    logo: "/smarttur.png",
+    logo: "/smarttur.jpg",
   },
   {
     id: "company11",
     name: "Verbalize",
-    logo: "/verbalize.png",
+    logo: "/verbalize.jpg",
   },
   {
     id: "company12",
     name: "Dollce casa",
-    logo: "/Dollce_casa.png",
+    logo: "/Dollce_casa.jpg",
   },
 ];
 
