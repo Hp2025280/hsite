@@ -35,7 +35,7 @@ const companies = [
   {
     id: "company7",
     name: "Pao Dourado",
-    logo: "/pao-dourado-branco-removebg-preview.jpg",
+    logo: "/pao-dourado-branco-removebg-preview.png",
   },
   {
     id: "company9",
