@@ -50,7 +50,7 @@ const companies = [
   {
     id: "company11",
     name: "Verbalize",
-    logo: "/verbalize.jpg",
+    logo: "/verbalize-nobg.jpg",
   },
   {
     id: "company12",
