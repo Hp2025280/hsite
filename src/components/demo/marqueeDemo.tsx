@@ -71,10 +71,10 @@ const CompanyLogo = ({
 }) => {
   return (
     <div
-      className="relative h-20 w-48 mx-6 flex items-center justify-center overflow-hidden bg-white hover:bg-white/70 border border-neutral-800 hover:border-[#EDFF8B]/30 transition-all duration-300 rounded-lg"
+      className="relative h-30 w-58 mx-6 flex items-center justify-center overflow-hidden transition-all duration-300 rounded-lg"
     >
       <Image 
-        className="object-contain p-4 transition-all duration-300 hover:scale-110" 
+        className="object-contain transition-all duration-300 hover:scale-110" 
         width="150" 
         height="75" 
         alt={`${name} logo`} 
