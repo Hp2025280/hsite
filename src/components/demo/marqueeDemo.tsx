@@ -32,11 +32,11 @@ const companies = [
 //     name: "Casaf",
 //     logo: "/9.png",
 //   },
-  {
-    id: "company7",
-    name: "Pao Dourado",
-    logo: "/pao-dourado-branco-removebg-preview.png",
-  },
+  // {
+  //   id: "company7",
+  //   name: "Pao Dourado",
+  //   logo: "/pao-dourado-branco-removebg-preview.png",
+  // },
   {
     id: "company9",
     name: "BM Midia",
