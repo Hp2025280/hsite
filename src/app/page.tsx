@@ -50,7 +50,7 @@ export default function Home() {
       <div> <MarqueeDemo /> </div>
 
       {/* Features Section */}
-      <section id="sections" className="mt-[300px] bg-black text-white">
+      <section id="sections" className="md:mt-[300px] mt-[100px] bg-black text-white">
         {/* Preview */}
         <FadeInSection>
           <div className="max-w-6xl mx-auto px-4 mb-16">
