@@ -4,58 +4,33 @@ import Image from "next/image";
 const companies = [
   {
     id: "company1",
-    name: "Birth Hair",
-    logo: "/2.png", // Replace with actual logo paths
+    name: "Fire Pit",
+    logo: "/firepit.png",
   },
   {
     id: "company2",
-    name: "Tokyo Turism",
-    logo: "/3.png",
+    name: "ADM",
+    logo: "/logo-adm-removebg-preview.png",
   },
   {
     id: "company3",
-    name: "Guap",
-    logo: "/6.png",
-  },
-  {
-    id: "company4",
-    name: "BSB Solutions",
-    logo: "/7.png",
-  },
-  {
-    id: "company5",
-    name: "Hair Brasil",
-    logo: "/8.png",
-  },
-  {
-    id: "company6",
-    name: "Casaf",
-    logo: "/9.png",
-  },
-  {
-    id: "company7",
-    name: "Tokyo Drift Tour",
-    logo: "/11.png",
-  },
-  {
-    id: "company9",
     name: "BM Midia",
     logo: "/BM-Midia.png",
   },
   {
-    id: "company10",
+    id: "company4",
     name: "Smart Tur",
-    logo: "/smarttur.png",
+    logo: "/smarttur.jpg",
   },
   {
-    id: "company11",
+    id: "company5",
     name: "Verbalize",
-    logo: "/verbalize.png",
+    logo: "/verbalize-nobg.jpg",
   },
   {
-    id: "company12",
+    id: "company6",
     name: "Dollce casa",
-    logo: "/Dollce_casa.png",
+    logo: "/Dollce_casa.jpg",
   },
 ];
 
@@ -71,7 +46,7 @@ const CompanyLogo = ({
 }) => {
   return (
     <div
-      className="relative h-20 w-48 mx-6 flex items-center justify-center overflow-hidden bg-white hover:bg-white/70 border border-neutral-800 hover:border-[#EDFF8B]/30 transition-all duration-300 rounded-lg"
+      className="relative h-20 w-48 mx-6 flex items-center justify-center overflow-hidden transition-all duration-300 rounded-lg"
     >
       <Image 
         className="object-contain p-4 transition-all duration-300 hover:scale-110" 

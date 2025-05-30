@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "solutions": "Soluções",
+    "aboutUs": "Como Atuamos",
+    "faq": "FAQ",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Transforme o modo como sua empresa cresce",
+    "subtitle": "O crescimento começa aqui.",
+    "cta": "Agendar Reunião"
+  },
+  "solutions": {
+    "title": "Soluções",
+    "heading": "Crescimento orientado a dados",
+    "description": "Soluções desenvolvidas pelo nosso time para que o seu negócio alcance melhores resultados."
+  },
+  "features": {
+    "analytics": {
+      "title": "Analytics",
+      "description": "Auxiliando sua empresa a gerar insights precisos para melhor escala de projetos e operações",
+      "learnMore": "Saiba mais →"
+    },
+    "dashboards": {
+      "title": "Dashboards & BI",
+      "description": "Criação de Dashboards personalizados para uma visão mais ampla e intuitiva ajudando em tomadas de decisões em diversas áreas.",
+      "learnMore": "Saiba mais →"
+    },
+    "ai": {
+      "title": "AI & Automation",
+      "description": "Focado em inteligência artificial para otimização de processos, chatbots, e automações inteligentes.",
+      "learnMore": "Saiba mais →"
+    },
+    "marketing": {
+      "title": "Data Driven Marketing",
+      "description": "Soluçoes em inbound marketing Seo, Estratégias de marketing baseadas em dados para performance e crescimento.",
+      "learnMore": "Saiba mais →"
+    },
+    "software": {
+      "title": "Software Solutions",
+      "description": "Desenvolvemos soluções que auxiliam em coleta de dados para melhor eficiencia operacional, e impulsionar a escalabilidade do seu negócio.",
+      "learnMore": "Saiba mais →"
+    },
+    "optimization": {
+      "title": "Strategy Optimization",
+      "description": "Desenvolvemos estratégias personalizadas para escalar vendas otimizar funis maximizar conversões com base em inteligência de dados e automação.",
+      "learnMore": "Saiba mais →"
+    }
+  },
+  "sav": {
+    "title": "SAV - Sistema de Análise de Vendas",
+    "subtitle": "Transforme suas interações em insights e potencialize os resultados do seu negócio",
+    "feature1": {
+      "title": "Análise Inteligente de Conversões",
+      "description": "O SAV transforma dados brutos de interações no WhatsApp em insights acionáveis para otimizar processos."
+    },
+    "feature2": {
+      "title": "Automação e Eficiência",
+      "description": "Coleta automatizada e análise estratégica das conversas, reduzindo custos operacionais."
+    },
+    "feature3": {
+      "title": "Decisão Baseada em Dados",
+      "description": "Relatórios visuais e gráficos para maximizar conversões e otimizar processos."
+    },
+    "feature4": {
+      "title": "Oportunidades de Crescimento",
+      "description": "Identifica tendências de mercado para estratégias mais assertivas."
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Tire suas dúvidas sobre como trabalhamos",
+    "question1": "Como funciona o diagnóstico H?",
+    "answer1": "A partir do momento que o cliente se interessa em ser nosso parceiro, fazemos um diagnóstico gratuito da situação da empresa e mostramos como o ecossistema da H pode transformar seu negócio.",
+    "question2": "Quais são os valores de investimento?",
+    "answer2": "Para saber o valor de investimento do seu projeto, necessitamos conhecer seu negócio a fundo, assim montamos uma operação com 100% de eficácia. Entre em contato conosco e agende uma reunião.",
+    "question3": "Como acompanho meus resultados?",
+    "answer3": "Você terá contato direto e diário com uma equipe em um grupo no WhatsApp e receberá relatórios semanais e mensais sobre como sua operação está andando, tanto por WhatsApp como outras ferramentas."
+  },
+  "testimonials": {
+    "title": "Depoimentos",
+    "heading": "Sua empresa: a única solução que seu cliente precisa.",
+    "reviews": [
+      {
+        "name": "Rafael Oliveira",
+        "username": "@rafael",
+        "body": "Fiquei impressionado com o Diagnóstico Gratuito oferecido pela H. Eles identificaram exatamente onde precisávamos melhorar e nos deram um plano claro de ação."
+      },
+      {
+        "name": "Beatriz Souza",
+        "username": "@beatriz",
+        "body": "As estratégias personalizadas da H foram cruciais para o aumento de faturamento da nossa empresa. A equipe realmente entende nossas necessidades e objetivos."
+      },
+      {
+        "name": "Lucas Martins",
+        "username": "@lucas",
+        "body": "Desde que começamos a trabalhar com a H, nosso faturamento aumentou significativamente. A equipe nos ajudou a identificar novas oportunidades de mercado e a otimizar nossas estratégias de vendas."
+      },
+      {
+        "name": "Pedro Coelho",
+        "username": "@pedro",
+        "body": "A H tem feito um trabalho surreal em relação a organização das etapas de processo, didáticas, apresentações. Realmente um backstage eficaz."
+      },
+      {
+        "name": "João Pereira",
+        "username": "@joao",
+        "body": "A consultoria estratégica da H foi essencial para nosso crescimento. Implementamos seus insights e dentro de 6 meses tivemos um aumento em nosso faturamento de 35%."
+      },
+      {
+        "name": "Mariana Costa",
+        "username": "@mariana",
+        "body": "A abordagem estratégica nos permitiu aumentar nosso faturamento de forma consistente, as campanhas orientadas por dados são extremamente eficazes."
+      }
+    ]
+  },
+  "meteor": {
+    "title": "O que é preciso para sua empresa crescer?",
+    "subtitle": "Oferecemos soluções para empresas nos mais diversos setores",
+    "cta": "Fale com a H"
+  },
+  "howWeWork": {
+    "title": "Como Atuamos",
+    "heading": "Transformando Dados em resultados",
+    "outsourcing": {
+      "title": "Outsourcing",
+      "description": "Nossa missão consiste em inserir uma equipe qualificada e experiente em sua empresa para atuar em projetos específicos ou para fornecer suporte contínuo na sua empresa. Isso possibilita que a H otimize seus processos internos, aumente a eficiência da equipe e melhore a forma como lida com os dados.",
+      "learnMore": "Saiba mais"
+    },
+    "customProjects": {
+      "title": "Projetos Sob Medida",
+      "description": "Aqui você conta com soluções personalizadas para atender às necessidades específicas do seu negócio. Nosso time trabalha em metodologias ágeis para entregar resultados rápidos e mensuráveis, sempre com foco na qualidade e dentro do cronograma.",
+      "learnMore": "Saiba mais"
+    }
+  },
+  "cta": {
+    "heading": "Conheça nossas soluções",
+    "description": "Entre em contato com nossa equipe e saiba como nosso ecossistema pode alavancar seu negócio.",
+    "hireUs": "Contratar a H®",
+    "ourSolutions": "Nossas soluções"
+  }
+} 

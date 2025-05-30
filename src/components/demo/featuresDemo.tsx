@@ -1,5 +1,8 @@
+"use client";
+
 import React, { useState } from "react";
 import { cn } from "@/lib/utils";
+import { useTranslations } from 'next-intl';
 import { 
     BarChart3, 
     LayoutDashboard, 
@@ -11,42 +14,49 @@ import {
 
 export function FeaturesSectionDemo() {
   const [hoveredId, setHoveredId] = useState<string | null>(null);
+  const t = useTranslations('features');
   
   const features = [
     {
         id: 'analytics',
-        title: 'Analytics',
-        description: 'Auxiliando sua empresa a gerar insights precisos para melhor escala de projetos e operações',
+        title: t('analytics.title'),
+        description: t('analytics.description'),
+        learnMore: t('analytics.learnMore'),
         icon: <BarChart3 className="w-6 h-6 text-[#EDFF8B]" />,
       },
       {
         id: 'dashboards',
-        title: 'Dashboards & BI',
-        description: 'Criação de Dashboards personalizados para uma visão mais ampla e intuitiva ajudando em tomadas de decisões em diversas áreas.',
+        title: t('dashboards.title'),
+        description: t('dashboards.description'),
+        learnMore: t('dashboards.learnMore'),
         icon: <LayoutDashboard className="w-6 h-6 text-[#EDFF8B]" />,
       },
       {
         id: 'ai',
-        title: 'AI & Automation',
-        description: 'Focado em inteligência artificial para otimização de processos, chatbots, e automações inteligentes.',
+        title: t('ai.title'),
+        description: t('ai.description'),
+        learnMore: t('ai.learnMore'),
         icon: <Brain className="w-6 h-6 text-[#EDFF8B]" />,
       },
       {
         id: 'marketing',
-        title: 'Data Driven Marketing',
-        description: 'Soluçoes em inbound marketing Seo, Estratégias de marketing baseadas em dados para performance e crescimento.',
+        title: t('marketing.title'),
+        description: t('marketing.description'),
+        learnMore: t('marketing.learnMore'),
         icon: <TrendingUp className="w-6 h-6 text-[#EDFF8B]" />,
       },
       {
         id: 'software',
-        title: 'Software Solutions',
-        description: 'Desenvolvemos soluções que auxiliam em coleta de dados para melhor eficiencia operacional, e impulsionar a escalabilidade do seu negócio.',
+        title: t('software.title'),
+        description: t('software.description'),
+        learnMore: t('software.learnMore'),
         icon: <Code2 className="w-6 h-6 text-[#EDFF8B]" />,
       },
       {
         id: 'optimization',
-        title: 'Strategy Optimization',
-        description: 'Desenvolvemos estratégias personalizadas para escalar vendas otimizar funis maximizar conversões com base em inteligência de dados e automação.',
+        title: t('optimization.title'),
+        description: t('optimization.description'),
+        learnMore: t('optimization.learnMore'),
         icon: <Zap className="w-6 h-6 text-[#EDFF8B]" />
       },
   ];
@@ -70,6 +80,7 @@ export function FeaturesSectionDemo() {
 const Feature = ({
   title,
   description,
+  learnMore,
   icon,
   index,
   isHovered,
@@ -79,6 +90,7 @@ const Feature = ({
   id: string;
   title: string;
   description: string;
+  learnMore: string;
   icon: React.ReactNode;
   index: number;
   isHovered: boolean;
@@ -125,7 +137,7 @@ const Feature = ({
             }`}
           >
             <p className="text-[#EDFF8B] text-sm font-semibold">
-              Saiba mais →
+              {learnMore}
             </p>
           </div>
           

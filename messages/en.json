@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "solutions": "Solutions",
+    "aboutUs": "How We Work",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Transform the way your company grows",
+    "subtitle": "Growth starts here.",
+    "cta": "Schedule Meeting"
+  },
+  "solutions": {
+    "title": "Solutions",
+    "heading": "Data-driven growth",
+    "description": "Solutions developed by our team so that your business achieves better results."
+  },
+  "features": {
+    "analytics": {
+      "title": "Analytics",
+      "description": "Helping your company generate accurate insights for better project and operations scaling",
+      "learnMore": "Learn more →"
+    },
+    "dashboards": {
+      "title": "Dashboards & BI",
+      "description": "Creation of customized Dashboards for a broader and more intuitive view helping in decision making across various areas.",
+      "learnMore": "Learn more →"
+    },
+    "ai": {
+      "title": "AI & Automation",
+      "description": "Focused on artificial intelligence for process optimization, chatbots, and intelligent automation.",
+      "learnMore": "Learn more →"
+    },
+    "marketing": {
+      "title": "Data Driven Marketing",
+      "description": "Inbound marketing solutions SEO, Data-driven marketing strategies for performance and growth.",
+      "learnMore": "Learn more →"
+    },
+    "software": {
+      "title": "Software Solutions",
+      "description": "We develop solutions that assist in data collection for better operational efficiency and boost your business scalability.",
+      "learnMore": "Learn more →"
+    },
+    "optimization": {
+      "title": "Strategy Optimization",
+      "description": "We develop personalized strategies to scale sales, optimize funnels, maximize conversions based on data intelligence and automation.",
+      "learnMore": "Learn more →"
+    }
+  },
+  "sav": {
+    "title": "SAV - Sales Analysis System",
+    "subtitle": "Transform your interactions into insights and boost your business results",
+    "feature1": {
+      "title": "Intelligent Conversion Analysis",
+      "description": "SAV transforms raw data from WhatsApp interactions into actionable insights to optimize processes."
+    },
+    "feature2": {
+      "title": "Automation and Efficiency",
+      "description": "Automated collection and strategic analysis of conversations, reducing operational costs."
+    },
+    "feature3": {
+      "title": "Data-Based Decision",
+      "description": "Visual reports and charts to maximize conversions and optimize processes."
+    },
+    "feature4": {
+      "title": "Growth Opportunities",
+      "description": "Identifies market trends for more assertive strategies."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Clear your doubts about how we work",
+    "question1": "How does the H diagnosis work?",
+    "answer1": "From the moment the client is interested in being our partner, we make a free diagnosis of the company's situation and show how H's ecosystem can transform your business.",
+    "question2": "What are the investment values?",
+    "answer2": "To know the investment value of your project, we need to know your business thoroughly, so we set up an operation with 100% effectiveness. Contact us and schedule a meeting.",
+    "question3": "How do I track my results?",
+    "answer3": "You will have direct and daily contact with a team in a WhatsApp group and receive weekly and monthly reports on how your operation is going, both via WhatsApp and other tools."
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "heading": "Your company: the only solution your client needs.",
+    "reviews": [
+      {
+        "name": "Rafael Oliveira",
+        "username": "@rafael",
+        "body": "I was impressed with the Free Diagnosis offered by H. They identified exactly where we needed to improve and gave us a clear action plan."
+      },
+      {
+        "name": "Beatriz Souza",
+        "username": "@beatriz",
+        "body": "H's personalized strategies were crucial for increasing our company's revenue. The team truly understands our needs and objectives."
+      },
+      {
+        "name": "Lucas Martins",
+        "username": "@lucas",
+        "body": "Since we started working with H, our revenue has increased significantly. The team helped us identify new market opportunities and optimize our sales strategies."
+      },
+      {
+        "name": "Pedro Coelho",
+        "username": "@pedro",
+        "body": "H has done surreal work regarding process step organization, didactics, presentations. Really an effective backstage."
+      },
+      {
+        "name": "João Pereira",
+        "username": "@joao",
+        "body": "H's strategic consulting was essential for our growth. We implemented their insights and within 6 months we had a 35% increase in our revenue."
+      },
+      {
+        "name": "Mariana Costa",
+        "username": "@mariana",
+        "body": "The strategic approach allowed us to increase our revenue consistently, data-driven campaigns are extremely effective."
+      }
+    ]
+  },
+  "meteor": {
+    "title": "What does it take for your company to grow?",
+    "subtitle": "We offer solutions for companies in the most diverse sectors",
+    "cta": "Talk to H"
+  },
+  "howWeWork": {
+    "title": "How We Work",
+    "heading": "Transforming Data into results",
+    "outsourcing": {
+      "title": "Outsourcing",
+      "description": "Our mission consists of inserting a qualified and experienced team in your company to work on specific projects or to provide continuous support in your company. This enables H to optimize your internal processes, increase team efficiency and improve how you deal with data.",
+      "learnMore": "Learn more"
+    },
+    "customProjects": {
+      "title": "Custom Projects",
+      "description": "Here you have customized solutions to meet the specific needs of your business. Our team works with agile methodologies to deliver fast and measurable results, always focusing on quality and within the timeline.",
+      "learnMore": "Learn more"
+    }
+  },
+  "cta": {
+    "heading": "Discover our solutions",
+    "description": "Contact our team and learn how our ecosystem can leverage your business.",
+    "hireUs": "Hire H®",
+    "ourSolutions": "Our solutions"
+  }
+} 

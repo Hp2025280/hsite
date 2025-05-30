@@ -2,33 +2,35 @@
 
 import Image from "next/image";
 import React from "react";
-import Link from "next/link";
+import { useTranslations } from 'next-intl';
 import { BarChart3, Zap, LineChart, TrendingUp } from "lucide-react";
 
 export default function SavDemo() {
+  const t = useTranslations('sav');
+  
   const features = [
     { 
       id: 1, 
-      title: "Análise Inteligente de Conversões",
-      description: "O SAV transforma dados brutos de interações no WhatsApp em insights acionáveis para otimizar processos.",
+      title: t('feature1.title'),
+      description: t('feature1.description'),
       icon: <BarChart3 className="w-8 h-8 text-[#EDFF8B]" />
     },
     { 
       id: 2, 
-      title: "Automação e Eficiência",
-      description: "Coleta automatizada e análise estratégica das conversas, reduzindo custos operacionais.",
+      title: t('feature2.title'),
+      description: t('feature2.description'),
       icon: <Zap className="w-8 h-8 text-[#EDFF8B]" />
     },
     { 
       id: 3, 
-      title: "Decisão Baseada em Dados",
-      description: "Relatórios visuais e gráficos para maximizar conversões e otimizar processos.",
+      title: t('feature3.title'),
+      description: t('feature3.description'),
       icon: <LineChart className="w-8 h-8 text-[#EDFF8B]" />
     },
     { 
       id: 4, 
-      title: "Oportunidades de Crescimento",
-      description: "Identifica tendências de mercado para estratégias mais assertivas.",
+      title: t('feature4.title'),
+      description: t('feature4.description'),
       icon: <TrendingUp className="w-8 h-8 text-[#EDFF8B]" />
     },
   ];
@@ -40,10 +42,10 @@ export default function SavDemo() {
         <div className="text-center mb-12">
           {/* <h3 className="inline-block font-bold mb-10 text-[#EDFF8B] rounded-full border-2 border-[#EDFF8B] px-8 py-3">SAV</h3> */}
           <h2 className="text-4xl font-bold mb-6 text-[#EDFF8B]">
-            SAV - Sistema de Análise de Vendas
+            {t('title')}
           </h2>
           <p className="text-xl text-neutral-300 max-w-3xl mx-auto">
-            Transforme suas interações em insights e potencialize os resultados do seu negócio
+            {t('subtitle')}
           </p>
           <div className="w-16 h-1 bg-[#EDFF8B] mx-auto mt-8"></div>
         </div>
@@ -69,28 +71,18 @@ export default function SavDemo() {
         </div>
 
         {/* Dashboard Image */}
-        <div className="mt-12">
-          <div className="relative w-full overflow-hidden rounded-xl border border-neutral-800">
-            <div className="relative w-full aspect-[16/9]">
+        <div className="flex justify-center">
+          <div className="relative w-full max-w-4xl">
+            <div className="rounded-2xl overflow-hidden border border-[#EDFF8B]/20 shadow-2xl bg-gradient-to-br from-black/40 to-[#EDFF8B]/5">
               <Image
-                src="/sav2.png"
-                fill
-                className="object-cover object-center"
-                alt="Dashboard do Sistema de Análise de Vendas"
+                src="/sav.png"
+                alt="SAV Dashboard"
+                width={800}
+                height={500}
+                className="w-full h-auto"
+                priority
               />
             </div>
-          </div>
-          
-          <div className="flex justify-center mt-10">
-            <Link 
-              href="https://api.whatsapp.com/send?phone=5511917673677&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20como%20a%20H%20atuaria%20no%20meu%20neg%C3%B3cio!" 
-              className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-[#EDFF8B] text-[#EDFF8B] font-semibold rounded-full hover:bg-[#EDFF8B] hover:text-black transition-all duration-300"
-            >
-              Agendar demonstração gratuita
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </Link>
           </div>
         </div>
       </div>
