@@ -79,7 +79,7 @@ export default function Header() {
           </div>
           
           <a href="https://api.whatsapp.com/send?phone=5511917673677&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20como%20a%20H%20atuaria%20no%20meu%20neg%C3%B3cio!" className="px-3 py-3 bg-[#EDFF8B] font-semibold text-black rounded-full hover:opacity-80 transition-opacity">
-            Diagnóstico H
+            {t('diagnosis')}
           </a>
         </div>
       </div>
@@ -117,7 +117,7 @@ export default function Header() {
             </div>
             
             <a href="https://api.whatsapp.com/send?phone=5511917673677&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20como%20a%20H%20atuaria%20no%20meu%20neg%C3%B3cio!" className="px-3 py-3 bg-[#EDFF8B] font-semibold text-black rounded-full hover:opacity-80 transition-opacity text-center mt-4">
-              Diagnóstico H
+              {t('diagnosis')}
             </a>
           </div>
         </div>

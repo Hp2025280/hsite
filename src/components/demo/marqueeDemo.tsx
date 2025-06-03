@@ -5,7 +5,7 @@ const companies = [
   {
     id: "company1",
     name: "Fire Pit",
-    logo: "/firepit.png",
+    logo: "/logo-firepit.png",
   },
   {
     id: "company2",
