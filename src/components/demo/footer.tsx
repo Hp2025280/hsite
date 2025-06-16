@@ -31,7 +31,7 @@ export default function Footer() {
             <a href={`/${locale}#sections`} className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">{t('solutions')}</a>
             <a href={`/${locale}/como-atuamos`} className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">{t('aboutUs')}</a>
             <a href={`/${locale}#faq`} className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">{t('faq')}</a>
-            <a href="https://api.whatsapp.com/send?phone=5511917673677&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20como%20a%20H%20atuaria%20no%20meu%20neg%C3%B3cio!" className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">{t('contact')}</a>
+            <a href="https://cal.com/hperformance-gamirl/45min" className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">{t('contact')}</a>
           </div>
         </div>
 

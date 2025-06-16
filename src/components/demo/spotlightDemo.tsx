@@ -17,7 +17,7 @@ export function SpotlightNewDemo() {
           O crescimento começa aqui.
         </p>
         <div className="flex justify-center">
-          <a href="https://api.whatsapp.com/send?phone=5511917673677&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20como%20a%20H%20atuaria%20no%20meu%20neg%C3%B3cio!" className="px-8 py-3 bg-[#EDFF8B] font-semibold text-black rounded-full hover:opacity-80 transition-opacity inline-block">
+          <a href="https://cal.com/hperformance-gamirl/45min" className="px-8 py-3 bg-[#EDFF8B] font-semibold text-black rounded-full hover:opacity-80 transition-opacity inline-block">
             Agendar Reunião
           </a>
         </div>

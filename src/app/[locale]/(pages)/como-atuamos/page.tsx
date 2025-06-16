@@ -302,7 +302,7 @@ const ComoAtuamos: React.FC = () => {
                 <Link href="/#sections" className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">Soluções</Link>
                 <Link href="/como-atuamos" className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">Como Atuamos</Link>
                 <Link href="/#faq" className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">FAQ</Link>
-                <Link href="https://api.whatsapp.com/send?phone=5511917673677&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20como%20a%20H%20atuaria%20no%20meu%20neg%C3%B3cio!" className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">Contato</Link>
+                <Link href="https://cal.com/hperformance-gamirl/45min" className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">Contato</Link>
               </div>
             </div>
 

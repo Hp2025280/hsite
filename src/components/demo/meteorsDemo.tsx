@@ -22,7 +22,7 @@ export function MeteorDemo() {
           
           <div className="flex justify-center">
             <Link 
-              href="https://api.whatsapp.com/send?phone=5511917673677&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20como%20a%20H%20atuaria%20no%20meu%20neg%C3%B3cio!" 
+              href="https://cal.com/hperformance-gamirl/45min" 
               className="px-8 py-4 bg-[#EDFF8B] text-black font-bold rounded-full hover:scale-105 hover:shadow-lg hover:shadow-[#EDFF8B]/20 transition-all duration-300"
             >
               {t('cta')}
