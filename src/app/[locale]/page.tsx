@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 // import { SpotlightNewDemo } from "@/components/demo/spotlightDemo";
 import { WavyBackgroundDemo } from "@/components/demo/wavyBackDemo";
 import { FeaturesSectionDemo } from "@/components/demo/featuresDemo";
@@ -37,7 +37,6 @@ const FadeInSection = ({ children, delay = 0, className = "" }: { children: Reac
 
 export default function Home() {
   const t = useTranslations();
-  const locale = useLocale();
 
   return (
     <div className="min-h-screen bg-black">
@@ -134,7 +133,7 @@ export default function Home() {
                   
                   <div className="mt-8 flex justify-center">
                     <Link 
-                      href="/como-atuamos" 
+                      href="/how-we-work" 
                       className="inline-flex items-center rounded-full px-6 py-3 bg-transparent border-2 border-[#EDFF8B] text-[#EDFF8B] font-semibold hover:bg-[#EDFF8B] hover:text-black transition-all duration-300 group-hover:scale-105"
                     >
                       {t('howWeWork.outsourcing.learnMore')}
@@ -168,7 +167,7 @@ export default function Home() {
                   
                   <div className="mt-8 flex justify-center">
                     <Link 
-                      href="/como-atuamos" 
+                      href="/how-we-work" 
                       className="inline-flex items-center rounded-full px-6 py-3 bg-transparent border-2 border-[#EDFF8B] text-[#EDFF8B] font-semibold hover:bg-[#EDFF8B] hover:text-black transition-all duration-300 group-hover:scale-105"
                     >
                       {t('howWeWork.customProjects.learnMore')}
@@ -181,7 +180,7 @@ export default function Home() {
                 
                 <div className="lg:w-1/4 relative flex items-center justify-center p-0 bg-[#EDFF8B]/5 overflow-hidden">
                   <Image
-                    src="/sobmedida.jpg"
+                    src="/custom-projects.jpg"
                     alt="Logo H"
                     fill
                     sizes="(max-width: 1024px) 100vw, 25vw"
@@ -230,7 +229,7 @@ export default function Home() {
             
             <div className="relative z-10">
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-                {t('cta.heading')} <span className="text-[#EDFF8B]">{locale === 'pt' ? 'soluções' : 'solutions'}</span>
+                {t('cta.heading')} <span className="text-[#EDFF8B]">solutions</span>
               </h2>
               
               <p className="text-xl text-neutral-300 max-w-2xl mx-auto mb-12">
