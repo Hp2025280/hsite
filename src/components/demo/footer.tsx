@@ -2,12 +2,12 @@
 
 import { Instagram } from "lucide-react";
 import Image from "next/image"
-import { useTranslations, useLocale } from 'next-intl';
+import Link from "next/link";
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
     const t = useTranslations('nav');
-    const locale = useLocale();
-    
+
     return (
     <footer className="bg-black text-white py-8 border-t border-neutral-800">
       <div className="max-w-6xl mx-auto px-4">
@@ -28,16 +28,16 @@ export default function Footer() {
             <a href="https://www.instagram.com/hperformancehub?igsh=NHlpejQ3OTNhcGY5" className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">
               <Instagram />
             </a>
-            <a href={`/${locale}#sections`} className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">{t('solutions')}</a>
-            <a href={`/${locale}/como-atuamos`} className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">{t('aboutUs')}</a>
-            <a href={`/${locale}#faq`} className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">{t('faq')}</a>
+            <a href="#sections" className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">{t('solutions')}</a>
+            <Link href="/how-we-work" className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">{t('aboutUs')}</Link>
+            <a href="#faq" className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">{t('faq')}</a>
             <a href="https://cal.com/hperformance-gamirl/45min" className="text-neutral-300 hover:text-[#EDFF8B] transition-colors duration-300">{t('contact')}</a>
           </div>
         </div>
 
         <div className="border-t border-neutral-800 mt-6 pt-6 text-center">
           <p className="text-neutral-500 text-sm">
-            © {new Date().getFullYear()} H. {locale === 'pt' ? 'Todos os direitos reservados.' : 'All rights reserved.'}
+            © {new Date().getFullYear()} H. All rights reserved.
           </p>
         </div>
       </div>

@@ -8,11 +8,6 @@ const companies = [
     logo: "/logo-firepit.png",
   },
   {
-    id: "company2",
-    name: "ADM",
-    logo: "/logo-adm-removebg-preview.png",
-  },
-  {
     id: "company3",
     name: "BM Midia",
     logo: "/BM-Midia.png",
